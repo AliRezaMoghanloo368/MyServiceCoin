@@ -1,0 +1,6 @@
+@MyServiceCoin_HostAddress = http://localhost:5241
+
+GET {{MyServiceCoin_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
