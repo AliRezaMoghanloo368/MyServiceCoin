@@ -1,12 +1,8 @@
-﻿using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Microsoft.OpenApi.Models;
+﻿using Microsoft.Extensions.Options;
 using MyServiceCoin.Configuration;
 using Polly;
 using RestSharp;
 using System.Net;
-using System.Runtime;
-using System.Security.Cryptography.Xml;
 using System.Text.Json;
 
 namespace MyServiceCoin.Services
@@ -60,7 +56,7 @@ namespace MyServiceCoin.Services
             }
             else
             {
-                return null; 
+                return null;
             }
         }
 
